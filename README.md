@@ -15,9 +15,9 @@ A simple, foolproof PDF compression tool for Windows that uses Ghostscript. Perf
 
 ## 🚀 Quick Start
 
-1. **Download** the files or clone this repository
-2. **Download Ghostscript installer** - Get `gs10051w64.exe` from [Ghostscript.com](https://www.ghostscript.com/download/gsdnld.html) and place it in the same folder
-3. **Extract** all files to a folder (Desktop works great)
+1. **Download** the files from this repository (green "Code" button → "Download ZIP")
+2. **Extract** all files to a folder (Desktop works great)
+3. **Download Ghostscript installer** - Get `gs10051w64.exe` from [Ghostscript.com](https://www.ghostscript.com/download/gsdnld.html) and **put it in the same folder** as the extracted files
 4. **Double-click** `run_compressor.bat`
 5. **Select** your PDF files when prompted
 6. **Done!** Compressed files automatically appear with "_COMPRESSED" in the name
@@ -28,7 +28,7 @@ A simple, foolproof PDF compression tool for Windows that uses Ghostscript. Perf
 - **`run_compressor.bat`** - Double-click this to start (recommended)
 - **`run_compressor_debug.bat`** - Debug version that shows console output
 - **`INSTRUCTIONS.md`** - Detailed step-by-step user instructions
-- **`gs10051w64.exe`** - Ghostscript installer (download separately)
+- **`gs10051w64.exe`** - Ghostscript installer (download separately - **MUST be in same folder**)
 
 ## 💻 System Requirements
 
@@ -67,20 +67,26 @@ A simple, foolproof PDF compression tool for Windows that uses Ghostscript. Perf
 ## 🛠️ Installation & Setup
 
 ### Option 1: Quick Download
-1. Download all files from this repository
-2. Download `gs10051w64.exe` from [Ghostscript Downloads](https://www.ghostscript.com/download/gsdnld.html)
-3. Put everything in one folder
-4. Double-click `run_compressor.bat`
+1. **Download ZIP** - Click green "Code" button → "Download ZIP"
+2. **Extract** - Unzip all files to a folder (like Desktop)
+3. **Get Ghostscript** - Download `gs10051w64.exe` from [Ghostscript Downloads](https://www.ghostscript.com/download/gsdnld.html)
+4. **Place together** - Put `gs10051w64.exe` in the same folder as the other files
+5. **Run** - Double-click `run_compressor.bat`
 
 ### Option 2: Git Clone
 ```bash
 git clone https://github.com/jjack33/PDF-Compression-Tool.git
 cd PDF-Compression-Tool
-# Download gs10051w64.exe and place here
+# Download gs10051w64.exe and place it in this folder
 # Double-click run_compressor.bat
 ```
 
 ## 🐛 Troubleshooting
+
+### "Ghostscript installer not found" error?
+- **Check folder** - Make sure `gs10051w64.exe` is in the same folder as `run_compressor.bat`
+- **Re-download** - Get the installer again from [Ghostscript Downloads](https://www.ghostscript.com/download/gsdnld.html)
+- **Correct name** - Ensure the file is named exactly `gs10051w64.exe`
 
 ### File picker doesn't appear?
 - Check your taskbar for a flashing icon
